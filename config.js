@@ -2,9 +2,12 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-global.owner = ['628991544516'] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.owner = [
+  ['628991544516', 'Valor_Bot', true]
+  // [number, dia creator/owner?, dia developer?]
+] // Put your number here
+global.mods = ['919971107409'] // Want some help?
+global.prems = ['628991544516'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
